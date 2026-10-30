@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+</head>
+<body>
+
+    <h1>Add New Product</h1>
+
+    <form id="productForm">
+
+        <label for="product">Product Name</label>
+
+        <input
+            type="text"
+            id="product"
+            name="productName"
+            placeholder="Enter product name"
+            required
+        >
+
+        <button type="submit">Add Product</button>
+
+    </form>
+
+    <h3 id="result"></h3>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="/js/product.js"></script>
+
+</body>
+</html>
